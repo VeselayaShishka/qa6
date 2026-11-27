@@ -1,0 +1,17 @@
+{
+  "name": "e2e-screenshot-tests",
+  "version": "1.0.0",
+  "description": "Лабораторна робота 6: e2e та screenshot тести (Playwright)",
+  "scripts": {
+    "test": "playwright test",
+    "start": "http-server public -p 3000",
+    "update-snapshots": "playwright test --update-snapshots",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "http-server": "^14.1.1"
+  }
+}
